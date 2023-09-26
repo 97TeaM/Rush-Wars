@@ -1,0 +1,11 @@
+"Name","TID","IconSWF","IconExportName","CardExportName","UsedInBattle","PremiumCurrency","IncreaseSound","CapFullTID","FreeResource","TextRed","TextGreen","TextBlue","Cap","PopOverTID","StealEffectBig","StealLimitBig","StealEffectMid","StealLimitMid","StealEffect"
+"String","String","String","String","String","boolean","Boolean","String","String","String","int","int","int","int","String","String","int","String","int","String"
+"Gems","TID_GEMS","sc/ui.sc","gem_icon","resource_gem",,"TRUE","Get_gem",,,102,255,102,,"TID_POP_GEM",,,,,
+"Gold","TID_GOLD","sc/ui.sc","gold_icon","resource_gold","TRUE",,"Get_coin","TID_GOLD_CAP_FULL","FreeGold",255,240,72,1000000,"TID_POP_GOLD","steal_gold_big",25,"steal_gold_mid",5,"steal_gold"
+"FreeGold","TID_GOLD","sc/ui.sc","gold_icon","resource_gold",,,"Get_coin",,,255,240,72,1000000,,,,,,
+"Mineral","TID_MINERAL","sc/ui.sc","mineral_icon","resource_mineral","TRUE",,,"TID_MINERAL_CAP_FULL","FreeMineral",72,240,255,1000000,"TID_POP_MINERAL",,,,,
+"FreeMineral","TID_MINERAL","sc/ui.sc","mineral_icon","resource_mineral",,,,"TID_MINERAL_CAP_FULL",,72,240,255,1000000,,,,,,
+"Card","TID_CARDS","sc/ui.sc","card_icon","card_icon",,,"Get_card",,,72,240,255,,,,,,,
+"Key","TID_KEYS","sc/ui.sc","key_icon","key_icon","TRUE",,"Get_key",,,255,255,255,5,"TID_POP_KEY",,,,,
+"Exp","TID_EXP","sc/ui.sc","mineral_icon","mineral_icon","TRUE",,"Get_exp",,,255,255,255,,"TID_POP_EXP",,,,,
+"Star","TID_STAR","sc/ui.sc","star_icon","star_icon","TRUE",,"Get_star",,,255,255,255,,"TID_POP_STAR",,,,,
